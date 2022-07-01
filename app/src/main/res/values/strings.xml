@@ -1,0 +1,201 @@
+<resources>
+    <string name="app_name">Ergo Kit</string>
+
+    <!--"____________________________________________Reba Area_______________________________________________________________________"-->
+
+    //reba
+    <string name="title_locate_neck_position_reba">Neck Position</string>
+    <string-array name="locate_neck_position_reba">
+        <item>10⁰ - 20⁰ (+1)</item>
+        <item>21⁰+ (+2)</item>
+        <item>extension (+2)</item>
+    </string-array>
+
+    <string name="title_locate_trunk_position_reba">Trunk Position</string>
+    <string-array name="locate_trunk_position_reba">
+        <item>0⁰ (+1)</item>
+        <item>extension (+2)</item>
+        <item>1⁰ - 20⁰ (+2)</item>
+        <item>21⁰ - 60⁰ (+3)</item>
+        <item>61⁰+ (+4)</item>
+    </string-array>
+
+    <string name="title_legs_reba">Legs</string>
+    <string-array name="legs_reba">
+        <item>normal (+1)</item>
+        <item>walk (+2)</item>
+    </string-array>
+
+    <string name="title_load_score_reba">Load Score</string>
+    <string-array name="load_score_reba">
+        <item>11 lbs (+0)</item>
+        <item>11–22 lbs (+1)</item>
+        <item>22+ lbs (+2)</item>
+    </string-array>
+
+    <string name="title_upper_arm_reba">Upper Arm</string>
+    <string-array name="upper_arm_reba">
+        <item>20⁰ extension/flexion (+1)</item>
+        <item>extension 20⁰+ (+2)</item>
+        <item>21⁰-45⁰ (+2)</item>
+        <item>46⁰-90⁰ (+3)</item>
+        <item>90⁰+ (+4)</item>
+    </string-array>
+
+    <string name="title_lower_arm_reba">Lower Arm</string>
+    <string-array name="lower_arm_reba">
+        <item>60⁰-100⁰ (+1)</item>
+        <item>0⁰-59⁰ (+2)</item>
+        <item>100⁰+ (+2)</item>
+    </string-array>
+
+    <string name="title_wrist_reba">Wrist</string>
+    <string-array name="wrist_reba">
+        <item>0⁰-15⁰ (+1)</item>
+        <item>15⁰+ (+2)</item>
+    </string-array>
+
+    <string name="title_coupling_score_reba">Coupling Score</string>
+    <string-array name="coupling_score_reba">
+        <item>Well fitting handle and mid range power grip (+0)</item>
+        <item>Acceptable but not ideal hand hold or coupling acceptable with another body part (+1)</item>
+        <item>Hand hold not acceptable but possible (+2)</item>
+        <item>No handles, awkward, unsafe with any body part (+3)</item>
+    </string-array>
+
+    <string name="activity_score1_reba">1 or more body parts are help for longer than 1 minute (static)</string>
+    <string name="activity_score2_reba">repeated small range actions (more than 4x per minute)</string>
+    <string name="activity_score3_reba">action causes rapid large range change in postures or unstable base</string>
+
+    //extension reba
+    //1a
+    <string name="reba_1a_1">if neck is twisted (+1)</string>
+    <string name="reba_1a_2">if neck is side bending (+1)</string>
+
+    //2a
+    <string name="reba_2a_1">if trunk is twisted (+1)</string>
+    <string name="reba_2a_2">if trunk is side bending (+1)</string>
+
+    //3a
+    <string name="reba_3a_1">if leg is bent 30⁰-60⁰ (+1)</string>
+    <string name="reba_3a_2">if leg is bent &lt;60⁰ (+2)</string>
+
+    //5a
+    <string name="reba_5a_1">if shock or rapid build up of force (+1)</string>
+
+    //7a
+    <string name="reba_7a_1">if shoulder is raised (+1)</string>
+    <string name="reba_7a_2">if upper arm is abducted (+1)</string>
+    <string name="reba_7a_3">if arm is supported or person is leaning (-1)</string>
+
+    //9a
+    <string name="reba_9a_1">if wrist is bent from midline or twisted (+1)</string>
+
+    //13a
+    <string name="reba_13a_1">one or more body part are held for longer than 1 minute (+1)</string>
+    <string name="reba_13a_2">repeated small range actions (more than 4x per minute) (+1)</string>
+    <string name="reba_13a_3">actions causes rapid large range changes in postures or unstable base (+1)</string>
+
+    <!--"____________________________________________Rula Area_______________________________________________________________________"-->
+
+    //rula
+    <string name="title_upper_arm_rula">Upper Arm</string>
+    <string-array name="upper_arm_rula">
+        <item>20⁰ extension/flexion (+1)</item>
+        <item>extension 20⁰+ (+2)</item>
+        <item>21⁰-45⁰ (+2)</item>
+        <item>46⁰-90⁰ (+3)</item>
+        <item>90⁰+ (+4)</item>
+    </string-array>
+
+    <string name="title_lower_arm_rula">Lower Arm</string>
+    <string-array name="lower_arm_rula">
+        <item>60⁰-100⁰ (+1)</item>
+        <item>0⁰-59⁰ (+2)</item>
+        <item>100⁰+ (+2)</item>
+    </string-array>
+
+    <string name="title_wrist_rula">Wrist</string>
+    <string-array name="wrist_rula">
+        <item>netral position (0⁰) (+1)</item>
+        <item>0⁰-15⁰ (+2)</item>
+        <item>15⁰+ (+3)</item>
+    </string-array>
+
+    <string name="title_wrist_twist_rula">Wrist Twist</string>
+    <string-array name="wrist_twist_rula">
+        <item>if wrist is twisted in mid-range (+1)</item>
+        <item>if wrist is at or near and of range (+2)</item>
+    </string-array>
+
+    <string name="title_load_score_rula">Load Score</string>
+    <string-array name="load_score_rula">
+        <item>if load &lt;4,4 lbs (+0)</item>
+        <item>4,4–22 lbs (intermittent) (+1)</item>
+        <item>4,4–22 lbs (static or repeated) (+2)</item>
+        <item>22+ lbs or repeated or shocks (+3)</item>
+    </string-array>
+
+    <string name="title_locate_neck_position_rula">Neck Position</string>
+    <string-array name="locate_neck_position_rula">
+        <item>0⁰ - 10⁰ (+1)</item>
+        <item>10⁰ - 20⁰ (+2)</item>
+        <item>20+⁰+ (+3)</item>
+        <item>extension (+4)</item>
+    </string-array>
+
+
+    <string name="title_locate_trunk_position_rula">Trunk Position</string>
+    <string-array name="locate_trunk_position_rula">
+        <item>0⁰ (+1)</item>
+        <item>1⁰ - 20⁰ (+2)</item>
+        <item>21⁰ - 60⁰ (+3)</item>
+        <item>61⁰+ (+4)</item>
+    </string-array>
+
+    <string name="title_legs_rula">Legs</string>
+    <string-array name="legs_rula">
+        <item>if leg and feet are supported (+1)</item>
+        <item>if not supported (+2)</item>
+    </string-array>
+
+    //extension rula
+    //1a
+    <string name="rula_1a_1">if shoulder is raised (+1)</string>
+    <string name="rula_1a_2">if upper arm is abducted (+1)</string>
+    <string name="rula_1a_3">if arm is supported or person is leaning (-1)</string>
+
+    //2a
+    <string name="rula_2a_1">if either arm is working across midline or out to side of body (+1)</string>
+
+    //3a
+    <string name="rula_3a_1">if raise is bent from midline (+1)</string>
+
+    //4a
+    <string name="rula_4a_1">if wrist is twisted in mid-range (+1)</string>
+    <string name="rula_4a_2">if wrist is at or near end of range (+2)</string>
+
+    //6a
+    <string name="title_rula_6a_1">Add Muscle Use Score</string>
+    <string name="rula_6a_1">if posture mainly static or if action repeated occurs 4x per minute (+1)</string>
+
+    //9a
+    <string name="rula_9a_1">if neck is twisted (+1)</string>
+    <string name="rula_9a_2">if neck is side bending (+1)</string>
+
+    //10a
+    <string name="rula_10a_1">if trunk is twisted (+1)</string>
+    <string name="rula_10a_2">if trunk is side bending (+1)</string>
+    <string name="title_activity_score">Activity Score</string>
+    <string name="hitung">calculate</string>
+    <string name="logo">Logo</string>
+    <string name="background">background</string>
+    <string name="text_reba">Rapid Entire Body Assessment (REBA)</string>
+    <string name="text_rula">Rapid Upper Limb Assessment (RULA)</string>
+    <string name="text_logo">ERGO KIT</string>
+    <string name="image_description">image description</string>
+
+    //13a
+    //same as 6a
+
+</resources>
