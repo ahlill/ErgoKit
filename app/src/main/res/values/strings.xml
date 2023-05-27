@@ -198,4 +198,23 @@
     //13a
     //same as 6a
 
+    //description Reba
+    <string name="negligible_risk">Negligible Risk</string>
+    <string name="low_risk">Low Risk, Change May Be Needed</string>
+    <string name="medium_risk">Medium Risk, Further Investigate. Change Soon</string>
+    <string name="high_risk">High Risk, Investigate and Implement Change</string>
+    <string name="very_high_risk">Very High Risk. Implement Change</string>
+
+    //description Rula
+    <string name="acceptable_posture">Acceptable Posture"</string>
+    <string name="further_investigation_change_mya_be_needed">Further Investigation, Change May Be Needed</string>
+    <string name="further_investigation_change_soon">Further investigation, Change Soon</string>
+    <string name="investigate_and_implement_change">Investigate and Implement Change</string>
+
+    <string name="error">Error</string>
+    <string name="ID_BANNER_REBA">ca-app-pub-1090153120742165/1214617313</string>
+    <string name="ID_INTERS_REBA">ca-app-pub-1090153120742165/1516977984</string>
+    <string name="ID_BANNER_RULA">ca-app-pub-1090153120742165/4290442999</string>
+    <string name="ID_INTERS_RULA">ca-app-pub-1090153120742165/8038116318</string>
+
 </resources>

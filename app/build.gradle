@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    compileSdk 32
+    compileSdk 33
 
     buildFeatures {
         viewBinding true
@@ -13,16 +13,17 @@ android {
     defaultConfig {
         applicationId "com.ergokit"
         minSdk 21
-        targetSdk 32
-        versionCode 1
-        versionName "0.9"
+        targetSdk 33
+        versionCode 3
+        versionName "1.0.1"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
     buildTypes {
         release {
-            minifyEnabled false
+            minifyEnabled true
+            shrinkResources true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
@@ -46,5 +47,5 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 
     //admob
-    implementation 'com.google.android.gms:play-services-ads-lite:21.0.0'
+    implementation 'com.google.android.gms:play-services-ads-lite:22.1.0'
 }

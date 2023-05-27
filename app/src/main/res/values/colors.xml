@@ -7,4 +7,12 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="color_negligible_risk">#1ce007</color>
+    <color name="color_low_risk">#ccff00</color>
+    <color name="color_medium_risk">#ffe600</color>
+    <color name="color_high_risk">#FF5722</color>
+    <color name="color_very_high_risk">#f01d16</color>
+    <color name="color_error">#592220</color>
+
 </resources>
