@@ -212,9 +212,6 @@
     <string name="investigate_and_implement_change">Investigate and Implement Change</string>
 
     <string name="error">Error</string>
-    <string name="ID_BANNER_REBA">ca-app-pub-1090153120742165/1214617313</string>
-    <string name="ID_INTERS_REBA">ca-app-pub-1090153120742165/1516977984</string>
-    <string name="ID_BANNER_RULA">ca-app-pub-1090153120742165/4290442999</string>
-    <string name="ID_INTERS_RULA">ca-app-pub-1090153120742165/8038116318</string>
+    
 
 </resources>
